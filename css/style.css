@@ -11,6 +11,8 @@ body{
     background-color: #1F1F1F;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
+    margin: 0;
+    padding: 0;
 }
 
 h1{
@@ -59,4 +61,15 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     height: 55rem;
+}
+
+footer{
+    background-color: #272626;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
