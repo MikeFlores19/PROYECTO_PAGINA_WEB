@@ -1,0 +1,80 @@
+html { /* Establece el border box para no perder la medida deseada*/
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10 px */
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    color: white;
+    background-color: #1F1F1F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+img{
+    max-width: 100%;
+    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.nombre-pagina{
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+}
+
+.nombre-pagina span{
+    color: #3F48CC;
+}
+
+.container-nav{
+    border-top: .1rem solid #e1e1e1;
+    border-bottom: .1rem solid #e1e1e1;
+}
+
+.nav-principal{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around; /*la funcion acomoda horizontal cuando es fila, cuando es columna acomoda verticalmente*/
+}
+
+.tematicas h2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.tema a{  
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.tema a:hover{ /*Utilizado cuando el cursor se ubica sobre el elemento*/
+    background-color: #3F48CC;
+    color: white;
+    border-bottom-right-radius: 1rem; /* Para dar redondeo a los bloques o figuras*/
+    border-bottom-left-radius: 1rem;
+}
+
+.listado-tematicas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
