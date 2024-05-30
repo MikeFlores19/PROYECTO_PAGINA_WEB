@@ -12,8 +12,6 @@ body{
     background-color: #1F1F1F;
     font-family: 'Poppins', sans-serif;
     font-size: 1.6rem;
-    margin: 0;
-    padding: 0;
 }
 
 h1{
@@ -69,6 +67,11 @@ img{
     font-size: 4.5rem;
 }
 
+.titulo h2{
+    text-align: center;
+    font-size: 4.5rem;
+}
+
 .tema a{  
     display: block;
     text-align: center;
@@ -98,4 +101,11 @@ footer{
 
 footer p {
     margin: 0;
+}
+.seccion {
+    background: #333;
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
