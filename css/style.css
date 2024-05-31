@@ -154,3 +154,8 @@ footer p {
     height: auto;
     margin-bottom: 1rem;
 }
+.centered-figure figcaption {
+    font-size: 1.6rem;
+    color: #ccc; /* Puedes ajustar este color para que contraste bien con el fondo */
+    text-align: center;
+}
