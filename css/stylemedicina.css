@@ -123,13 +123,12 @@ footer p {
     margin: 0;
 }
 
-.content img {
+.seccion img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; /* Ajusta este valor según el tamaño deseado de la imagen */
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
-
 
 .seccion {
     background: #333;

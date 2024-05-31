@@ -101,11 +101,15 @@ img{
 
 .contacto-container {
     display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    justify-content:space-around;
+    margin-top: 10px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px; /* Redondea los bordes */
     background-color: #272626; /* Color de fondo */
+    padding: 1rem 0;
+    width: 300px;
 }
 
 .contacto-item img {
