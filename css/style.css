@@ -72,6 +72,10 @@ img{
     font-size: 4.5rem;
 }
 
+.tema{
+    justify-content: center;
+}
+
 .tema a{  
     display: block;
     text-align: center;
@@ -137,3 +141,21 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.centered-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.centered-figure img {
+    max-width:50%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+.centered-figure figcaption {
+    font-size: 1.6rem;
+    color: #ccc; /* Puedes ajustar este color para que contraste bien con el fondo */
+    text-align: center;
+}

@@ -123,6 +123,7 @@ footer p {
     margin: 0;
 }
 
+<<<<<<< HEAD
 .seccion img {
     display: block;
     margin: 0 auto;
@@ -130,6 +131,16 @@ footer p {
     height: auto;
 }
 
+=======
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Ajusta este valor según el tamaño deseado de la imagen */
+}
+
+
+>>>>>>> 6f648adc16c12dcb9a392633c7d644ceba6fd4cc
 .seccion {
     background: #333;
     padding: 2rem;
