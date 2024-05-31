@@ -72,6 +72,10 @@ img{
     font-size: 4.5rem;
 }
 
+.tema{
+    justify-content: center;
+}
+
 .tema a{  
     display: block;
     text-align: center;
@@ -137,3 +141,16 @@ footer p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.centered-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.centered-figure img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
