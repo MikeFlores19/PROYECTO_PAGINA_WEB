@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 /* Establece el border box para no perder la medida deseada */
 html {
+    scroll-behavior: smooth;
     box-sizing: border-box;
     font-size: 62.5%; /* 1rem = 10 px */
 }
@@ -39,11 +39,11 @@ img {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 5rem;
-    font-size: 4rem;
+    font-size: 9rem;
 }
 
 .nombre-pagina span {
-    color: #3F48CC;
+    color: #471691;
 }
 
 .container-nav {
@@ -64,94 +64,77 @@ img {
     height: 55rem;
 }
 
-.content {
-    background: #333;
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h3 {
-    color: #3F48CC;
-    margin-top: 20px;
-}
-=======
-/* Establece el border box para no perder la medida deseada */
-html {
-    box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10 px */
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body {
-    color: white;
-    background-color: #1F1F1F;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
-}
-
-h1 {
-    font-family: 'Bebas Neue', sans-serif;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-img {
-    max-width: 100%;
-    display: block; /* Utilizado para no dejar separación entre las imágenes y los elementos */
-}
-
-.container {
-    max-width: 120rem;
-    margin: 0 auto;
-}
-
-.nombre-pagina {
+.tematicas h2,
+.titulo h2 {
     text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 
-.nombre-pagina span {
-    color: #3F48CC;
+.tema a {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
 }
 
-.container-nav {
-    border-top: .1rem solid #e1e1e1;
-    border-bottom: .1rem solid #e1e1e1;
+.tema a:hover { /* Utilizado cuando el cursor se ubica sobre el elemento */
+    background-color: #3F48CC;
+    color: white;
+    border-bottom-right-radius: 1rem; /* Para dar redondeo a los bloques o figuras */
+    border-bottom-left-radius: 1rem;
 }
 
-.nav-principal {
-    padding: 2rem 0;
+.listado-tematicas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* Estilos para la imagen */
+.imagen-equipo {
+    max-width: 35%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.contacto-container {
     display: flex;
-    justify-content: space-around; /* Acomoda horizontalmente cuando es fila, verticalmente cuando es columna */
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 10px; /* Redondea los bordes */
+    background-color: #272626; /* Color de fondo */
 }
 
-.hero {
-    background-image: url(../img/tec.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 55rem;
+.contacto-item img {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: auto;
 }
 
-.content {
+footer {
+    background-color: #272626;
+    text-align: center;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; /* Ajusta este valor según el tamaño deseado de la imagen */
+}
+
+
+.seccion {
     background: #333;
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
-h3 {
-    color: #3F48CC;
-    margin-top: 20px;
-}
->>>>>>> 1f5f41d67dde34fe41fd6e33b574f75df751d790
