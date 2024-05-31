@@ -123,7 +123,6 @@ footer p {
     margin: 0;
 }
 
-<<<<<<< HEAD
 .seccion img {
     display: block;
     margin: 0 auto;
@@ -131,20 +130,18 @@ footer p {
     height: auto;
 }
 
-=======
-.content img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%; /* Ajusta este valor según el tamaño deseado de la imagen */
-}
-
-
->>>>>>> 6f648adc16c12dcb9a392633c7d644ceba6fd4cc
 .seccion {
     background: #333;
     padding: 2rem;
     margin: 2rem 0;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos adicionales para el contenedor de video */
+.seccion video {
+    display: block;
+    margin: 0 auto; /* Centra horizontalmente el video */
+    width: 80%; /* Ajusta el ancho del video */
+    height: auto; /* Mantiene la proporción de aspecto */
 }
