@@ -121,6 +121,26 @@ img{
     height:auto;
 }
 
+.titulo-container {
+    display: inline-block;
+    border-radius: 10px; /* Redondea los bordes */
+    background-color: #3F48CC; /* Color de fondo */
+    padding: 5px; /* Añade un poco de espacio entre el texto y el borde del contenedor */
+}
+
+.contenedor-padre {
+    text-align: center; /* Centra los elementos hijos horizontalmente */
+}
+
+.titulo-area-container {
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px; /* Redondea los bordes */
+    background-color: #767379; /* Color de fondo */
+    padding: 5px; /* Añade un poco de espacio entre el texto y el borde del contenedor */
+}
+
+
 
 
 footer{
